@@ -22,6 +22,18 @@ section
 .half-width img{
     height:500px;
 }
+/* .link-button{
+    text-decoration:none;
+} */
+
+button{
+    font-size: large;
+    height:35px;
+    color:darkgreen;
+    background-color: darkorange;
+    border:solid red;
+    border-radius: 5px;
+}
 /* .half-width img
 {
    width:700px; 
