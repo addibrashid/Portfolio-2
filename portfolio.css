@@ -1,6 +1,7 @@
 body
 {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 h1{
     font-size: 50px;
@@ -18,24 +19,35 @@ section
   width:60%;
   text-align: justify;
   padding-left: 25px;
+  
+  
 } 
-.half-width img{
+/*(ii)no problem .half-width img{
     height:500px;
-}
-/* .link-button{
-    text-decoration:none;
 } */
+/*i) no problem a{
+    height:50px;
+    background-color: red;
+} */
+.link-button{
+    text-decoration:none;
+    background-image:linear-gradient(orange, tomato);
+    font-weight: 700;
+    padding:10px 20px;
+   border-radius: 5px;
 
-button{
+}
+.top-banner
+{
+    background-image: url(developer-portfolio/images/top-banner.png);
+  background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
+}
+/* button{
     font-size: large;
     height:35px;
     color:darkgreen;
     background-color: darkorange;
     border:solid red;
     border-radius: 5px;
-}
-/* .half-width img
-{
-   width:700px; 
-   height:800px;
-}  */
+} */
