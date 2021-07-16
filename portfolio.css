@@ -13,12 +13,14 @@ h1{
 section
 {
     display:flex;
+    margin-bottom: 50px;
 }
 .half-width 
 {
-  width:60%;
+  width:50%;
   text-align: justify;
-  padding-left: 25px;
+  padding-left: 150px;
+  margin-right: 150px;
   
   
 } 
@@ -41,13 +43,48 @@ section
 {
     background-image: url(developer-portfolio/images/top-banner.png);
   background-repeat: no-repeat;
-    /* background-repeat: no-repeat; */
+    
 }
-/* button{
+/* .half-widths
+{
+    width:50%;
+} */
+
+button{
     font-size: large;
-    height:35px;
+    height:50px;
     color:darkgreen;
     background-color: darkorange;
-    border:solid red;
-    border-radius: 5px;
+    border:solid orangered;
+    border-radius: 15px;
+}
+.dream-big
+{
+    background-image: url(developer-portfolio/images/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position: right;
+}
+/* a
+{
+    background-color: darkgreen;
+    
+} */
+/* .dream-big
+{
+    display: flex;
+    justify-content: space-between;
+} */
+#margins
+{
+    margin-left: 20px;
+}
+/* #edit
+{
+    height:500px;
+    width:5150px;
+} */
+/* .edit
+{
+    height: 50px;
+    width: 450px;
 } */
