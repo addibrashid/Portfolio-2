@@ -10,17 +10,17 @@ h1{
 {
     color:darkgoldenrod;
 }
-section
+.flexible-container
 {
     display:flex;
     margin-bottom: 50px;
 }
 .half-width 
 {
-  width:50%;
+  width:70%;
   text-align: justify;
-  padding-left: 150px;
-  margin-right: 150px;
+  padding-left: 50px;
+  margin-right: 40px;
   
   
 } 
@@ -45,6 +45,10 @@ section
   background-repeat: no-repeat;
     
 }
+.textedit
+{
+ text-shadow: 2px 1px red;   
+}
 /* .half-widths
 {
     width:50%;
@@ -63,6 +67,28 @@ button{
     background-image: url(developer-portfolio/images/dream-bg.png);
     background-repeat:no-repeat;
     background-position: right;
+}
+.boxedit
+{
+    box-shadow: 10px -10px 10px red, 5px -10px yellow, 0px 10px 10px gray;
+    /* margin-top: 5px; */
+    margin-left: 5px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    /* padding:5px 15px 30px; */
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    border-image-outset: 20px;
+}
+.experience-area
+{
+    margin-left: 20px;
+    background-image: url(developer-portfolio/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 150px  550px;
+    background-attachment: fixed;
+    background-size:5%;
 }
 /* a
 {
